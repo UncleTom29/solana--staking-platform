@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "moduleResolution": "node",
+
+    "strict": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "lib": ["ES2019"],
+    "importHelpers": true
+  },
+  "include": ["src/", "tests/", "target/types/buffer-layout.d.ts"]
+}
